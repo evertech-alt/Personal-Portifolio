@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="en">
+    <!--The <head> section contains metadata,links to stylesheets and other information used by the browser-->
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0"><!--makes the site responsive-->
+        <title>My portifolio</title>
+        <!--link to the external css sheet-->
+        <link rel="stylesheet" href="style.css">
+    </head>
+    <body>
+        <!--Navigation bar-->
+        <header class="header">
+            <a href="#" class="logo">Everline</a>
+            <!--navigation links that link to different part of the page-->
+            <nav class="nav-items">
+                    <a href="#About">About me</a>
+                    <a href="#Projects">My Projects</a>
+                    <a href="#education">Education background</a>
+                    <a href="#contact-form">Contact me</a>
+            </nav>
+        </header>
+        <!--Hero section with avatar and text-->
+        <section id="hero">
+             <div class="intro-text">
+                    <h1>Hi,I'm Everline</h1>
+                    <p>an aspiring web developer passionate to turn ideas into delicious digital experiences.</p>
+                    <a href="MY CV.docx" download class="cv-button">Download My CV</a>
+
+            </div>
+            <img src="/image.svg" alt="My Avatar" class="avatar1">
+        </section>
+        <!--About me-->
+        <section id="About">
+            <div class="about-text">
+                <h2>About me</h2>
+                <p>I am a beginner web developer learning HTML and CSS.Soon i'll be making websites as sweet as chocolate,smooth,satisfying and hard to resist.I am currently enrolled at Jomo Kenyatta University of Agriculture and Technology doing a degree in IT,where i have learnt one or two about tech and where we code with sugar,spice and everything nice.I believe in continuous learning which is a plus in the tech world with new trends each hour</p>
+             </div>
+    
+            <img src="image3.svg" alt="My avatar" class="avatar">
+        </section>
+        <!--Interests section-->
+        <section id="interests">
+            <h3>My Interests</h3>
+                <div class="interests-grid">
+                    <div class=interests-item>Programming</div>
+                    <div class=interests-item>Exploring tech trends</div>
+                    <div class=interests-item>Cooking</div>
+                </div>
+        </section>
+        <!--projects section-->
+        <section id="Projects">
+             <h2>Melt into my projects below!</h2>
+             <div class="project-info"></div>
+                <div class="project-card">
+                    <h3>My Portifolio Website</h3>
+                    <p>This site shows my web development journey where i used HTML and CSS only.Inspired by my addiction</p>
+                    <a href="#" target="_blank">View Project</a>
+                </div>
+                <div class="project-card">
+                    <h3>My First App</h3>
+                    <p>Coming soon.I'm working on an app,If you love toffee you'll definitely love this one.</p>
+                    <a href="#" target="_blank">Coming soon</a>
+                </div>
+            </div>
+        </section>
+        <!--Education section-->
+        <section id="education">
+            <h2>Education background</h2>
+                <div class="education-info">
+                <ul>
+                <li>JKUAT,Nairobi Kenya <strong>Degree in IT</strong> - 2024 - Present</li>
+                <li>PLP <strong>Software Development</strong>- 2025 - present</li>
+                </ul>
+                <h2>Programming languages</h2>
+                <ul>
+                    <li>C Programming</li>
+                    <li>Python Programming</li>
+                </ul>
+            </div>
+        </section>
+        <!--Contact section-->
+        <section id="contact-form">
+            <h2>Get in Touch</h2>
+                <div class="contact-details">
+                    <p>Let's Work Together</p>
+                    <p>My Email: <a href="mailto:evanjeri009@gmail.com">evanjeri009@gmail.com</a></p>
+
+                    <form action="https://formspree.io/f/xzzvadoj" method="post">
+                    <label for="name">Your name:</label>
+                    <input type="name" id="name" name="name" required placeholder="Your name">
+
+                    <label for="email">Your email: </label>
+                    <input type="email" id="email" name="email" required placeholder="Your Email">
+
+                    <label for="message" >Message</label>
+                    <textarea id="message" name="message" rows="6" required placeholder="Your message"></textarea>
+                    
+                    <button type="submit">Send message</button>
+                </form>
+            </div>
+        </section>
+        <!--Footer-->
+        <footer>
+            <p>&copy; 2025 Everline, built with love and a hint of cocoa</p>
+        </footer>
+    </body>
+</html>
