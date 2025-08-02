@@ -318,12 +318,84 @@ footer {
   font-size: 0.9rem;
 }
 /*make it responsive on different devices*/
-@media(max-width:768px){
-    #hero{
-        flex-direction: column-reverse;
-        text-align: center;
-    }
-    .avatar1{
-        margin-top: 20px;
-    }
+@media screen and (max-width: 768px) {
+  /* Make nav stack vertically */
+  nav {
+    flex-direction: column;
+    align-items: center;
+    gap: 10px;
+  }
+
+  nav a {
+    margin: 5px 0;
+    font-size: 16px;
+  }
+
+  /* Stack hero section */
+  #hero {
+    flex-direction: column-reverse;
+    padding: 20px;
+    margin-top: 100px;
+    text-align: center;
+  }
+
+  .intro-text h1 {
+    font-size: 30px;
+  }
+
+  .intro-text p {
+    font-size: 16px;
+  }
+
+  .avatar1 {
+    max-width: 80%;
+    margin-top: 20px;
+  }
+
+  /* About section */
+  #About {
+    flex-direction: column;
+    padding: 20px;
+    text-align: center;
+  }
+
+  .avatar {
+    max-width: 80%;
+    margin-bottom: 20px;
+  }
+
+  /* Projects */
+  .project-info {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .project-card {
+    width: 90%;
+  }
+
+  /* Interests */
+  .interests-grid {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  /* Education */
+  .education-info ul li {
+    width: 100%;
+    max-width: 90%;
+  }
+
+  /* Contact */
+  .contact-form input,
+  .contact-form textarea {
+    width: 100%;
+    max-width: 100%;
+    margin-bottom: 10px;
+  }
+
+  .contact-details button {
+    width: 100%;
+    max-width: 100%;
+  }
 }

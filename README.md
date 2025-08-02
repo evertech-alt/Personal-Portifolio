@@ -17,7 +17,7 @@ This is a responsive ,personal portifolio website created as part of the PLP-**P
 -Fast and easy navigation
 
 Live Link
-[https://your-portfolio.netlify.app](.....)
+[https://stellar-kitten-939cc3.netlify.app/]
 
 How to view locally 
  1.Clone the repository:
