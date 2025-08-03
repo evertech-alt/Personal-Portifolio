@@ -3,7 +3,7 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-
+    
 }
 
 html{
@@ -15,7 +15,6 @@ body{
     font-family: sans-serif;
     background-color: pink;
     line-height: 1.7;/*make it more visible*/
-    overflow: hidden;
 }
 /*header styling*/
 .header{
@@ -41,8 +40,6 @@ body{
 nav{
     display: flex;
     gap: 20px;
-    flex-direction: column;
-    align-items: center;
 }
 /*navigation layout and styling*/
 nav a{
@@ -323,40 +320,12 @@ footer {
   font-size: 0.9rem;
 }
 /*make it responsive on different devices*/
-@media screen and (max-width: 768px) {
-  body {
-    padding: 10px;
-    font-size: 16px;
-  }
-
-  .header,
-  #About,
-  #Projects,
-  #contact-form {
-    flex-direction: column;
-    padding: 10px;
-    text-align: center;
-  }
-
-  nav {
-    flex-direction: column;
-    gap: 10px;
-    align-items: center;
-  }
-
-  .container,
-  .section {
-    flex-direction: column;
-    align-items: center;
-  }
-
-  img {
-    max-width: 100%;
-    height: auto;
-  }
-
-  .project-card {
-    width: 100%;
-    margin-bottom: 20px;
-  }
+@media(max-width:768px){
+    #hero{
+        flex-direction: column-reverse;
+        text-align: center;
+    }
+    .avatar1{
+        margin-top: 20px;
+    }
 }
