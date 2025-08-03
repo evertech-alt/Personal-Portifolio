@@ -26,7 +26,6 @@ body{
     background-color: white;
     z-index: 1000;
     position: fixed;
-    height: auto;
 }
 /*logo text styling*/
 .logo{
@@ -40,6 +39,8 @@ nav{
     display: flex;
     gap: 20px;
     flex-wrap: wrap;
+    height: auto;
+    position: sticky;
 }
 /*navigation layout and styling*/
 nav a{
