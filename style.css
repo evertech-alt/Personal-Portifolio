@@ -16,6 +16,7 @@ body{
     background-color: pink;
     line-height: 1.7;/*make it more visible*/
     overflow-x: hidden;
+    padding-top: 60px;
 }
 /*header styling*/
 .header{
@@ -41,9 +42,13 @@ body{
 nav{
     display: flex;
     gap: 20px;
+    overflow-x: auto;
+    max-width: 100%;
+    flex-wrap: wrap;
+    height: 60px;
 }
 /*navigation layout and styling*/
-nav a{
+.nav-items a{
     font-size: 18px;
     margin-left: 35px;
     margin: 10px 20px ;
@@ -57,6 +62,16 @@ nav a:hover,
 nav a.active{
     color: #c71585;
 }
+
+#menu-toggle{
+    display: none;
+}
+
+.hamburger{
+    font-size: 26px;
+    cursor: pointer;
+    display: none;
+}
 /*sytling hero section*/
 #hero{
     display: flex;
@@ -69,13 +84,6 @@ nav a.active{
     margin: 40px auto;
     margin-top: 50px;
     border-radius: 20px;
-}
-
-.intro-section{
-    position: relative;
-    width: 100%;
-    height: 100vh;
-    background: white;
 }
 
 .intro-text h1{
@@ -125,6 +133,7 @@ nav a.active{
     gap: 30px;
     padding: 60px 40px;
     align-items: center;
+    
 }
  
 .about-text{
@@ -328,5 +337,29 @@ footer {
     }
     .avatar1{
         margin-top: 20px;
+    }
+    .nav-items{
+        display: none;
+        flex-direction: column;
+        position: absolute;
+        top: 60px;
+        right: 0;
+    }
+
+    .hamburger{
+        display: block;
+        cursor: pointer;
+        font-size:28px;
+    }
+    #menu-toggle{
+        display: none;
+    }
+
+    #menu-toggle:checked + .hamburger + .nav-items{
+        display: flex;
+    }
+    #About{
+        flex-direction: column;
+        text-align: center;
     }
 }

@@ -3,7 +3,7 @@
     <!--The <head> section contains metadata,links to stylesheets and other information used by the browser-->
     <head>
         <meta charset="UTF-8">
-        <meta name="viewport" content="width=device-width, initial-scale=1.0"><!--makes the site responsive-->
+        <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no"><!--makes the site responsive-->
         <title>My portifolio</title>
         <!--link to the external css sheet-->
         <link rel="stylesheet" href="style.css">
@@ -13,11 +13,15 @@
         <header class="header">
             <a href="#" class="logo">Everline</a>
             <!--navigation links that link to different part of the page-->
-            <nav class="nav-items">
+            <nav>
+                <input type="checkbox" id="menu-toggle" class="hamburger"/>
+                <label for="menu-toggle" class="hamburger">&#9776;</label>
+                <div class="nav-items">
                     <a href="#About">About me</a>
                     <a href="#Projects">My Projects</a>
                     <a href="#education">Education background</a>
                     <a href="#contact-form">Contact me</a>
+                </div>
             </nav>
         </header>
         <!--Hero section with avatar and text-->
