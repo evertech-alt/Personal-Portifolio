@@ -10,7 +10,7 @@ NOTE : **best reviewed in light mode for optimal color experience**
 #Built by :Everline Njeri
 
 #Overview
-This is a responsive ,personal portifolio website created as part of the PLP-**Power Learn Project** july 2025 hackathon challenge.It showcases my journey in HTMl and CSS as a beginner web developer.I managed to showcase myself professionally ,showcase my skills,projects and my learning journey.I practiced on deploying web applications and documenting it.I had a challenge in making the page responsive and allowing the website to be viewed under dark mode.**Unfortunately it is only colorful in light mode**.I'm working to learn how to do so with the help of my fellow students Apologies.
+This is a responsive ,personal portifolio website created as part of the PLP-**Power Learn Project** july 2025 hackathon challenge.It showcases my journey in HTMl and CSS as a beginner web developer.I managed to showcase myself professionally ,showcase my skills,projects and my learning journey.I practiced on deploying web applications and documenting it.I had a challenge in making the page responsive and allowing the website to be viewed under dark mode.**Unfortunately it is only colorful in light mode**.I'm working to learn how to do so with the help of my fellow students.I will take this is a chance to learn more on CSS but i am proud of how far i have come.
 
 #Website Features
 -Responsiveness(mobile and desktop friendly)
