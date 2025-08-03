@@ -65,7 +65,7 @@ nav a.active{
     padding: 60px 40px;
     flex-direction: row;
     align-items: center;
-    max-width: 1200px;
+    max-width: 100%;
     margin: 40px auto;
     margin-top: 50px;
     border-radius: 20px;
