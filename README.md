@@ -5,7 +5,7 @@ NOTE : **best reviewed in light mode for optimal color experience**
 #Tech-stack
     1.**HTML**-for page structure
     2.**CSS**-for styling
-    3.**Netlify**-for live deployment
+    3.**Netlify**-for live deployment 
 
 #Built by :Everline Njeri
 
@@ -32,7 +32,7 @@ How to view locally
 
 What i learned
 1.how to design and style a portifolio
-2.How to push code to github and deploy on netlify
+2.How to push code to github and deploy on netlify by directly linking it to my github for changes when i add.
 3.I improved in HTML and CSS language
 4.I've gotten better at writing README for documentation
 
