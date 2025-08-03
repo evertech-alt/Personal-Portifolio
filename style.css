@@ -16,6 +16,8 @@ body{
     background-color: pink;
     line-height: 1.7;/*make it more visible*/
     overflow-x: hidden;
+    width: 100%;
+    max-width: 100vw;
 }
 /*header styling*/
 .header{
